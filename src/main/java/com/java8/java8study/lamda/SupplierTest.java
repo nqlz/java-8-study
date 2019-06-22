@@ -3,7 +3,7 @@ package com.java8.java8study.lamda;
 import java.util.function.Supplier;
 
 /**
- * 功能描述:
+ * 功能描述:Supplier 接口产生给定泛型类型的结果。 与 Function 接口不同，Supplier 接口不接受参数。
  *
  * @author: MR.zt
  * @date: 2019/5/25 11:05

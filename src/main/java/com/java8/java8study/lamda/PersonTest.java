@@ -15,6 +15,7 @@ import java.util.stream.Stream;
  */
 public class PersonTest {
 
+
     public static void main(String[] args) {
 
         Person person1 = new Person("张三", 11);
@@ -28,8 +29,11 @@ public class PersonTest {
                 item.getUserName().equals("旺财")
         ).collect(Collectors.toList());
         personList.stream().map(item ->
-                {item.setAge(88);return item;}
-        ).forEach(it-> System.out.println(it));
+                {
+                    item.setAge(88);
+                    return item;
+                }
+        ).forEach(it -> System.out.println(it));
 
         System.out.println(personList);
 

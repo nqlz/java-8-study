@@ -1,11 +1,13 @@
 package com.java8.java8study.lamda;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.function.Function;
-import java.util.stream.Stream;
 
 /**
- * 功能描述:
+ * 功能描述:Function 接口接受一个参数并生成结果。默认方法可用于将多个函数链接在一起（compose, andThen）
  *
  * @author: MR.zt
  * @date: 2019/5/23 21:41
